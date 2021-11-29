@@ -29,6 +29,18 @@ body {
     font-size: 2rem;
     font-weight: 500;
   }
+@media only screen and (min-width: 48rem) {
+  .menu {
+    grid-template-columns: 10% auto 10%;
+  }
+  .menu .contenedor-menu a {
+    font-size: 1.1rem;
+  }
+  .menu .idiomas {
+    display: grid;
+    flex-direction: column;
+  }
+}
   
   .menu {
     margin-top: 2rem;
