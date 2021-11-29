@@ -1,0 +1,217 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+    font-family: "Oswald", sans-serif;
+    background: url("../img/codigo-binario.jpg") repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+  }
+.contenedor {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .titulo {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .menu {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    border-top: 0.1rem solid rgba(86, 86, 86, 0.5);
+    border-bottom: 0.1rem solid rgba(86, 86, 86, 0.5);
+    position: sticky;
+    z-index: 11;
+    top: 0;
+    display: grid;
+    grid-template-columns: 10% auto;
+  }
+  .menu .foto {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .menu .foto img {
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-right: 1.25rem;
+  }
+  .menu .contenedor-menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+  }
+  .menu .contenedor-menu a {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+  }
+  .menu .contenedor-menu a:hover {
+    color: #c90c0f;
+  }
+  .main .sobre-mi {
+    min-height: 100vh;
+    padding: 3rem 0;
+    background: url("../img/fondo-programado-del-software-código-html-d-rinden-102733125.jpg") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    margin-bottom: 3rem;
+  }
+  .main .sobre-mi .contenedor-sobre-mi .texto {
+    padding: 1.5rem 0;
+    background: #101010;
+    color: red;
+    font-family: monospace, Arial;
+    width: 70%;
+    min-height: 27.5rem;
+    margin: 0 auto;
+    border-radius: 0.625rem;
+  }
+  .main .sobre-mi .contenedor-sobre-mi .texto .direccion {
+    margin-bottom: 1rem;
+  }
+  .main .sobre-mi .contenedor-sobre-mi .texto .descripcion {
+    color: grey;
+    font-weight: 100;
+    line-height: 1.5;
+  }
+  .main .sobre-mi .contenedor-sobre-mi .texto p {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .main .proyectos {
+    background: url("../img/Untitled_design_2_1cad0d41-a303-4d32-a184-f7976d365a64.jpg") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem 0;
+    margin-bottom: 3rem;
+  }
+  .main .proyectos .contenedor-proyectos {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+  }
+  .main .proyectos .contenedor-proyectos .proyecto {
+    margin: auto;
+    width: 250px;
+    height: 350px;
+  }
+  .main .proyectos .contenedor-proyectos .proyecto .info {
+    padding: 1rem 0.5rem;
+    height: 10.625rem;
+    background: #ffffff;
+    color: #000000;
+    border: 0.125rem solid #969a97;
+  }
+  .main .proyectos .contenedor-proyectos .proyecto .info h4 {
+    text-align: left;
+    margin-bottom: 2.5rem;
+    font-size: 1.3rem;
+  }
+  .main .proyectos .contenedor-proyectos .proyecto .info h5 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: normal;
+  }
+  .main .proyectos .contenedor-proyectos .proyecto .info p {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  .main .proyectos .contenedor-proyectos .proyecto .info p .html {
+    color: #854723;
+  }
+  .main .proyectos .contenedor-proyectos .proyecto .info p .css {
+    color: #0571BA;
+  }
+  .main .proyectos .contenedor-proyectos .proyecto .info .foto img {
+    width: 100%;
+    height: 11.25rem;
+    vertical-align: top;
+  }
+
+  .footer {
+    background: #11c40a;
+    color: #000000;
+    padding: 2rem 0 0 0;
+  }
+  .footer .contenedor .redes-sociales {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .footer .contenedor .redes-sociales .social {
+    width: 4.375rem;
+    height: 4.375rem;
+    background: #f1f1f1;
+    margin: 0 0.625rem;
+    border-radius: 30%;
+    box-shadow: 0 0.3125rem 0.9375rem -0.3125rem #00000070;
+    overflow: hidden;
+    position: relative;
+  }
+  .footer .contenedor .redes-sociales .social i {
+    line-height: 4.375rem;
+    font-size: 1.4375rem;
+    transition: 0.2s linear;
+  }
+  .footer .contenedor .redes-sociales .social:hover i {
+    transform: scale(1.3);
+    color: #ffffff;
+  }
+  .footer .contenedor .redes-sociales .social::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+  }
+  .footer .contenedor .redes-sociales .social:hover::before {
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+  }
+  .footer p {
+    background: #555454;
+    padding: 0.5rem 0;
+    text-align: center;
+    font-weight: 700;
+  }
+  .footer .foto img {
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-right: 1.25rem;
+  }
